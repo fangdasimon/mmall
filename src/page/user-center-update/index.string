@@ -1,0 +1,25 @@
+<div class="form">
+   <div class="form-line">
+       <span class="label">用户名</span>
+       <span class="text">{{username}}</span>
+   </div>
+   <div class="form-line">
+       <span class="label">电话</span>
+       <input autocomplete="off" class="form-update" value="{{phone}}" id="phone">
+   </div>
+   <div class="form-line">
+       <span class="label">邮箱</span>
+       <input autocomplete="off" class="form-update" value="{{email}}" id="email">
+   </div>
+   <div class="form-line">  
+       <span class="label">问题</span>
+       <input autocomplete="off" class="form-update" value="{{question}}" id="question">
+   </div>
+   <div class="form-line">
+       <span class="label">答案</span>
+       <input autocomplete="off" class="form-update" value="{{answer}}" id="answer">
+   </div>
+   <div class="form-line">
+       <a class="btn btn-mini" id="center-update">提交</a>
+   </div>
+</div>

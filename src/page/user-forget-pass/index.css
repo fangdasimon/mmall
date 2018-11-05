@@ -1,0 +1,79 @@
+/*
+* @Author: simon
+* @Date:   2018-03-18 09:52:22
+* @Last Modified by:   simon
+* @Last Modified time: 2018-04-06 10:57:31
+*/
+.page-wrap{
+    padding: 40px 0;/*自适应高度*/
+    background: #f6f6f6;
+}
+.forget-con{
+    width: 400px;
+    background: #fff;
+    margin:0 auto;
+    border:1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.forget-con .user-title{
+   text-align: center;
+   font-size: 18px;
+   color:#666;
+   padding:10px 0;
+   border-bottom: 1px solid #ddd;
+   font-weight: bold;
+}
+.forget-con .user-box{
+    padding:20px;/*自适应高度*/
+}
+.forget-con .user-box .step-con{
+    display: none;
+}
+.forget-con .user-box .user-text{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.user-box .label-input{
+    position: relative;
+    margin-bottom: 20px;
+}
+.user-box .label-input label{
+    position: absolute;/*让其脱离文档流填充进input里*/
+    top:1px;
+    bottom: 1px;
+    left: 1px;
+    right: 1px;
+    display: inline-block;
+    width: 40px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 18px;
+    color:#d3d3d3;
+    background: #f3f3f3;
+    border-right: 1px solid #dbdbdb;
+}
+.user-box .label-input input{
+    padding:10px 0 10px 50px;
+    outline: none;
+    width:308px;
+    line-height: 18px;
+    font-size: 15px;
+    border:1px solid #dbdbdb;
+}
+.forget-con .user-box .btn{
+    padding:0;
+}
+.user-box .btn-step{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.forget-con .link-item{
+    text-align: right;
+    padding: 0 20px 10px;
+}
+.forget-con .link-item .link{
+    margin-left:10px;
+    color:#999;
+}

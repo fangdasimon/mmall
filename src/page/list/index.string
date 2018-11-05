@@ -1,0 +1,18 @@
+{{#list}}
+  <li class="list-item">
+  <div class="list-img">
+    <a href="./detail.html?productId={{id}}" class="link" target="_blank">
+      <img class="p-img" src="{{imageHost}}{{mainImage}}" alt="{{name}}">
+    </a>
+  </div>
+  <div class="list-price">￥{{price}}</div>
+  <div class="list-name">
+    <a class="p-name" href="./detail.html?productId=xxx" class="link" target="_blank">
+      {{name}}
+    </a>
+  </div>
+</li>
+{{/list}}
+{{^list}}
+    <p class="error-tip">此商品已下架暂不支持购买~~</p>
+{{/list}}

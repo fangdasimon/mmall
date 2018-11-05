@@ -1,0 +1,86 @@
+/*
+* @Author: simon
+* @Date:   2018-03-19 14:37:45
+* @Last Modified by:   simon
+* @Last Modified time: 2018-03-22 13:39:47
+*/
+.sort-con{
+    overflow: hidden;
+}
+.sort-con .sort-item.active{
+    background: #c60023;
+    border:1px solid #c60023;
+    color:#fff;
+}
+.sort-con .sort-item{
+    float: left;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding:0px 8px;
+    margin-right: -1px;/*合并重叠地方*/
+    color:#333;
+    background: #fff;
+    border:1px solid #ccc;
+    cursor: pointer;
+    position: relative;
+}
+.sort-con .sort-item .fa-sort-desc{
+    position: absolute;
+    top:8px;
+    right: 8px;
+}
+.sort-con .sort-item.asc .fa-sort-desc{
+    opacity: .6;
+}
+.sort-con .sort-item.desc .fa-sort-asc{
+    opacity: .6;
+}
+
+.list-con{
+    margin-top:15px;
+    margin-right: -20px;
+    overflow: hidden;
+}
+.list-con .list-item{
+    float: left;
+    width: 180px;
+    padding:10px;
+    margin:0 20px 20px 0;
+    background: #fff;
+}
+.list-con .list-item:hover{
+    box-shadow: 5px 5px 7px #ccc;
+}
+.list-item .list-img{
+    width: 180px;
+    height: 220px;
+}
+.list-item .list-img .p-img{
+    width: 100%;
+    height: 100%;
+}
+.list-price{
+    height: 30px;
+    line-height: 30px;
+    color: #c60023;
+    font-size: 16px;
+}
+.list-name{
+    height: 40px;
+    overflow: hidden;
+}
+.list-name .p-name{
+    line-height: 20px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.error-tip{
+    height: 60px;
+    line-height: 60px;
+    color:#f60;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: #eee;
+}

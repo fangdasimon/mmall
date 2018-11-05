@@ -1,0 +1,185 @@
+/*
+* @Author: simon
+* @Date:   2018-03-21 11:09:30
+* @Last Modified by:   simon
+* @Last Modified time: 2018-05-10 11:06:56
+*/
+/*收货地址展列*/
+.address-con,.product-con{
+    width: 1055px;
+}
+.address-con .address-wrap{
+    float: left;
+    width: 210px;
+    padding:10px;
+    margin:20px 20px 0 0;
+    cursor: pointer;
+    border:3px dashed rgb(204,204,204);
+}
+.address-con .address-wrap.active{
+     border:3px dashed #c60023;
+}
+.address-con .address-wrap .address-title{
+    line-height: 20px;
+    color:rgb(102,102,102);
+    border-bottom: 1px solid rgb(221,221,221);
+    overflow: hidden;
+}
+.address-con .address-wrap .address-detail{
+    height: 40px;
+    line-height: 20px;
+    margin-top:5px;
+    color:rgb(102,102,102);
+    overflow: hidden;
+}
+.address-con .address-wrap .address-operate{
+    text-align: right;
+    /*visibility: hidden;*/     /*相比display:none;  visibility会占位*/
+}
+.address-wrap .address-operate .link{
+    margin-right: 5px;
+}
+/*地址添加*/
+.address-add{
+    float: left;
+    width: 208px;
+    padding:10px;
+    margin:20px 20px 0 0;
+    cursor: pointer;
+    border:3px dashed rgb(204,204,204);
+}
+.address-add .address-new{
+    text-align: center;
+    color:rgb(204,204,204);
+    padding:12px 0;
+}
+.address-add .address-new .fa{
+    font-size: 50px;
+    line-height: 50px;
+}
+.address-add .address-new .text{
+    font-size: 12px;
+}
+
+/*购物车商品展列*/
+.product-con .product-table{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.product-table th,.product-table td{
+    border-bottom: 1px dashed #ccc;
+}
+.product-con .cell-img{
+    width: 10%;
+    text-align: center;
+}
+.product-con .cell-img .p-img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.product-con .cell-info{
+    width: 26%;
+    padding:0 2%;
+    text-align: left;
+    overflow: hidden;
+}
+.product-con .cell-price{
+    width: 20%;
+    text-align: center;
+}
+.product-con .cell-count{
+    width: 20%;
+    text-align: center;
+}
+.product-con .cell-total{
+    width: 20%;
+    text-align: center;
+}
+
+.product-con .total-count{
+   text-align: right;
+   background: #eee;
+}
+.product-con .total-count .cart-total{
+    color:#c60023;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.product-con .total-count .btn-count{
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*modal弹出层*/
+.modal{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background: rgba(0,0,0,.4);
+    z-index: 999;
+    overflow: hidden;
+}
+.modal-wrap .modal-con{
+    float: none;/*同级panel上有float:left*/
+    width: 500px;
+    margin:50px auto;
+    background: #fff;
+    border-radius: 3px;
+}
+.modal-con .panel-title{
+    position: relative;
+}
+.modal-con .panel-title .fa{
+    position: absolute;
+    right: 20px;
+    top:10px;
+    cursor: pointer;
+}
+.modal-con .form-line{
+    /*外层给了padding之后里层的元素自然就有了宽度 要想居中除非重新给发高度*/
+    margin: 5px auto; 
+    overflow: hidden;
+    font-size: 14px;
+}
+.modal-con .form-line label{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.modal-con .form-line input{
+    height: 26px;
+    line-height: 26px;
+    padding:0 5px;
+    outline: none;
+}
+.modal-con .form-line select{
+    width: 80px;
+    height: 26px;
+    line-height: 26px;
+    padding:0 5px;
+    margin-right: 3px;
+    outline: none;
+}
+.modal-con .form-line .btn{
+    margin-left: 90px;
+    height: 33px;
+    line-height:33px;
+    border-radius: 4px;
+}
+

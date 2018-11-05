@@ -1,0 +1,38 @@
+<div class="modal">
+  <div class="panel modal-con">
+     <div class="panel-title">
+       使用新地址<i class="fa fa-close" id="close"></i>
+     </div>
+     <div class="panel-body modal-panel">
+         <div class="form-line">
+           <label for="name">收件人姓名:</label>
+           <input id="name" value="{{data.receiverName}}" placeholder="请输入收件人姓名" autocomplete="off">
+         </div>
+         <div class="form-line">
+          <label for="province">所在城市</label>
+            <select id="receiverProvince">
+              <option value="请选择">请选择</option>
+            </select>
+            <select id="receiverCity">
+              <option value="请选择">请选择</option>
+            </select>
+         </div>
+         <div class="form-line">
+           <label for="address">详细地址:</label>
+           <input id="address" value="{{data.receiverAddress}}" placeholder="请精确到门牌号" autocomplete="off">
+         </div>
+         <div class="form-line">
+           <label for="phone">收件人手机:</label>
+           <input id="phone" value="{{data.receiverPhone}}"placeholder="请输入十一位的手机号码" autocomplete="off">
+         </div>
+         <div class="form-line">
+           <label for="zip">邮政编码:</label>
+           <input id="zip" value="{{data.receiverZip}}" placeholder="如:100000" autocomplete="off">
+         </div>
+         <div class="form-line">
+           <input type="hidden" id="addressId" value="{{data.id}}">
+           <span class="btn save-address">保存收货地址</span>
+         </div>
+     </div>
+  </div>
+</div>

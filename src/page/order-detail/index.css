@@ -1,0 +1,92 @@
+/*
+* @Author: simon
+* @Date:   2018-03-22 17:30:36
+* @Last Modified by:   simon
+* @Last Modified time: 2018-04-08 19:03:10
+*/
+.order-panel{
+    margin-left: 145px;
+}
+.order-table{
+    width: 100%;
+}
+.order-table th,.order-table td{
+    border-bottom: 1px dashed #ccc;
+}
+/*订单信息*/
+.order-text{
+    width: 260px;
+    float: left;
+    margin-right: 10px;
+}
+.order-text span{
+    display:block;
+    height: 33px;
+    line-height: 33px;
+    margin-bottom: 10px;
+}
+.order-text .btn{
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+}
+.order-text .btn a{
+    color:#fff;
+}
+.order-text .btn a:hover{
+    text-decoration:none;
+}
+/*商品清单*/
+.order-table .cell-img{
+    width: 10%;
+    text-align: center;
+}
+.order-table .cell-img .p-img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.order-table .cell-info{
+    width: 26%;
+    padding:0 2%;
+    text-align: left;
+    overflow: hidden;
+}
+.order-table .cell-price{
+    width: 20%;
+    text-align: center;
+}
+.order-table .cell-count{
+    width: 20%;
+    text-align: center;
+}
+.order-table .cell-total{
+    width: 20%;
+    text-align: center;
+}
+.total-count{
+   text-align: right;
+   background: #eee;
+}
+.total-count .cart-total{
+    color:#c60023;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.total-count .btn-count{
+    width: 80px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+}
+.total-count .btn-count a{
+    color:white;
+    text-decoration: none;
+}
+

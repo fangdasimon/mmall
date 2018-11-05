@@ -1,0 +1,16 @@
+/*
+* @Author: simon
+* @Date:   2018-03-16 17:34:38
+* @Last Modified by:   simon
+* @Last Modified time: 2018-03-16 17:49:55
+*/
+.nav-simple{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+.nav-simple .logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #c60023;
+}

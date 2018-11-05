@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <%=require('html-loader!./layout/head-common.html')%>
+   <title><%=htmlWebpackPlugin.options.title%>- Damon电商平台</title>
+</head>
+<body> <!--  2.0.0+的JQueryIE8不兼容 处理HTML文件的插件是支持ejs模板的，但是需要html-loader做转一下才可以引入-->
+    <%=require('html-loader!./layout/nav-simple.html')%>
+    <div class="page-wrap">
+        <div class="w">
+           <div class="user-login">
+                   <h1 class="user-title">用户登录</h1>
+                   <div class="user-content">
+                       <div class="error">
+                          <i class="fa fa-minus-circle"></i>
+                          <span class="errorMsg">Not found</span>
+                       </div>
+                       <div class="label-input">
+                           <label for="username"><i class="fa fa-user"></i></label>
+                           <input class="user-input" id="username" placeholder="请输入用户名" autocomplete="off"> 
+                       </div>
+                       <div class="label-input">
+                           <label for="password"><i class="fa fa-lock"></i></label>
+                           <input class="user-input" id="password" type="password" placeholder="请输入用户密码" autocomplete="off"> 
+                       </div>
+                       <button class="btn login-submit">登录</button>
+                       <div class="link-con">
+                           <a href="./user-forget-pass.html" class="link" target="_blank">忘记密码</a>
+                           <a href="./user-register.html" class="link" target="_blank">免费注册</a>
+                       </div>
+                   </div>
+           </div>
+        </div>
+    </div>
+    <%=require('html-loader!./layout/footer.html')%>
+</body>
+</html>

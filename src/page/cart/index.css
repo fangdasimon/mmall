@@ -1,0 +1,130 @@
+/*
+* @Author: simon
+* @Date:   2018-03-20 16:27:51
+* @Last Modified by:   simon
+* @Last Modified time: 2018-03-21 14:45:05
+*/
+.cart-header{
+    background: #eee;
+    margin-top:10px;
+}
+/*th td 的通用演示*/
+.cart-table{
+    width: 100%;
+    border:1px solid #ebebeb;
+    margin-bottom:5px;
+}
+.cart-table .cell-check{
+    width: 7%;
+    text-align: left;
+    padding-left: 20px;
+}
+.cart-table .cart-cell{
+    height: 40px;
+    line-height: 20px;
+}
+.cart-table .cell-info{
+    width: 45%;
+    padding-left: 106px;
+    overflow: hidden;
+}
+.cart-table .cell-price{
+    width: 10%;
+    text-align: center;
+}
+.cart-table .cell-count{
+    width: 15%;
+    text-align: center;
+}
+.cart-table .cell-count .cart-input{
+    width: 60px;
+    height: 28px;
+    line-height: 28px;
+    color:#333;
+    text-align: center;
+    outline:none;
+    border:1px solid #eee;
+}
+.cart-table .cell-count .btn-count{
+    display: inline-block;/*行内元素升级为块级元素才可以设置宽高*/
+    width: 20px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #fff;
+    border:1px solid #eee;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.cart-table .cell-total{
+    width: 13%;
+    text-align: center;
+}
+.cart-table .cell-operate{
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*cart-list 修改img info部分*/
+.cart-list .cart-table .cell-img {
+    width:10%;
+    text-align: left;
+}
+.cart-list .cart-table .cell-img .p-img{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: left;
+    border:1px solid #eee;
+}
+.cart-list .cart-table .cell-info{
+    width: 35%;
+    text-align: left;
+}
+
+/*cart-delete*/
+.cart-footer{
+    background: #eee;
+    line-height: 50px;
+    overflow: auto;
+}
+.cart-footer .cart-select{
+    float:left;
+    padding-left: 20px;
+    width: 7%
+}
+.cart-footer .delete-select{
+    float: left;
+    margin-left: 20px;
+}
+.cart-footer .delete-select:hover{
+    color: #c60023;
+    cursor: pointer;
+}
+.cart-footer .total-count{
+    float: right;
+}
+.cart-footer .total-count .cart-total{
+    color:#c60023;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.cart-footer .total-count .btn-count{
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+

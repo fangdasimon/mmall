@@ -1,0 +1,22 @@
+/*
+* @Author: simon
+* @Date:   2018-03-18 15:35:42
+* @Last Modified by:   simon
+* @Last Modified time: 2018-03-18 15:51:21
+*/
+.form-line{
+    line-height: 35px;
+    font-size: 14px;
+}
+.form-line .label{
+    margin-right: 20px;
+    display: inline-block;
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.form-line .form-update{
+    outline: none;
+    padding:4px;
+}

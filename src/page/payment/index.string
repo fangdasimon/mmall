@@ -1,0 +1,5 @@
+<p class="payment">订单成功后,请尽快支付! 订单号{{orderNo}}</p>
+<p class="payment enhance">请使用沙箱支付宝APP进行如下支付:</p>
+<div class="qrcode">
+ <img src="{{qrUrl}}" alt="二维码" class="p-img">
+</div>

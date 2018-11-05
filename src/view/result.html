@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <%=require('html-loader!./layout/head-common.html')%>
+   <title><%=htmlWebpackPlugin.options.title%>- Damon电商平台</title>
+</head>
+<body> <!--  2.0.0+的JQueryIE8不兼容 -->
+    <%=require('html-loader!./layout/nav-simple.html')%>
+    <div class="page-wrap w">
+        <div class="result-con register-success">
+           <h1 class="result-title">恭喜你,注册成功</h1>
+           <div class="result-content">
+               <a href="./index.html" class="link">回到首页</a>
+               <a href="./user-login.html" class="link">立即登录</a>
+           </div>
+        </div>
+        <div class="result-con forget-pass-success">
+           <h1 class="result-title">恭喜你,重置密码成功</h1>
+           <div class="result-content">
+               <a href="./index.html" class="link">回到首页</a>
+               <a href="./user-login.html" class="link">立即登录</a>
+           </div>
+        </div>
+        <div class="result-con add-cart-success">
+           <h1 class="result-title">恭喜你,加入购物车成功</h1>
+           <div class="result-content">
+               <a href="./index.html" class="link">回到首页</a>
+               <a href="./cart.html" class="link">去购物车查看</a>
+           </div>
+        </div>
+        <div class="result-con payment-success">
+           <h1 class="result-title">恭喜你,支付成功</h1>
+           <div class="result-content">
+               <a href="./index.html" class="link">回到首页</a>
+               <a href="./order-detail.html?orderNo=" class="link orderNumber">去订单详情页查看</a>
+           </div>
+        </div>
+        <div class="result-con default-success">
+           <h1 class="result-title">恭喜你,操作成功</h1>
+           <div class="result-content">
+               <a href="./index.html" class="link">回到首页</a>
+           </div>
+        </div>
+    </div>
+    <%=require('html-loader!./layout/footer.html')%>
+</body>
+</html>

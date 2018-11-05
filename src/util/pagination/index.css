@@ -1,0 +1,48 @@
+/*
+* @Author: simon
+* @Date:   2018-03-19 17:37:51
+* @Last Modified by:   simon
+* @Last Modified time: 2018-03-23 10:47:10
+*/
+.page-wrap{
+    padding:15px 0;
+}
+.pg-content{
+    text-align: center;
+    color:#333;
+    margin-left: 35px;
+}
+.pg-content .pg-item{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding:0 15px;
+    color: #999;
+    background: #fff;
+    border:1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+    /*css3样式用户不能多次点击*/
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pg-content .pg-item.disabled,
+.pg-content .pg-item.disabled:hover{
+    color:#ccc;
+    background: none;
+    cursor: auto;
+}
+.pg-content .pg-item.active,
+.pg-content .pg-item:hover{
+    background: #26B;
+    color: #fff;
+    border:1px solid #AAE; 
+    cursor: auto;
+}
+.pg-content .pg-total{
+    margin-left: 10px;
+    background: none;
+    cursor: auto;
+}

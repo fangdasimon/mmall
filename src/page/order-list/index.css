@@ -1,0 +1,70 @@
+/*
+* @Author: simon
+* @Date:   2018-03-22 15:31:31
+* @Last Modified by:   simon
+* @Last Modified time: 2018-03-22 17:25:55
+*/
+.order-list-con{
+    margin-bottom: 25px;
+}
+.order-table{
+    width: 100%;
+}
+/*标题*/
+.order-header{
+    background: #eee;
+    margin-bottom: 20px;
+}
+.order-table .order-cell{
+    padding:10px 0;
+    color:#666;
+    border-bottom:1px solid #eee;
+}
+.order-table .cell-img{
+    width: 10%;
+    text-align: center;
+}
+.order-table .cell-img .p-img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.order-table .cell-info{
+    width: 26%;
+    padding:0 2%;
+    text-align: left;
+    overflow: hidden;
+}
+.order-table .cell-price{
+    width: 20%;
+    text-align: center;
+}
+.order-table .cell-count{
+    width: 20%;
+    text-align: center;
+}
+.order-table .cell-total{
+    width: 20%;
+    text-align: center;
+}
+.order-table .order-info{
+    color:#999;
+    padding:10px;
+    background: #eee;
+}
+/*订单信息*/
+.order-table .order-info .order-text{
+    margin-right: 10px;
+}
+.order-info .order-text .order-no{
+    font-weight: bold;
+}
+.order-info .order-text .order-price{
+    font-weight: bold;
+    color: #c60023;
+}
+.order-info .order-text .order-detail{
+    float:right;
+    padding-right:28px;
+}
+

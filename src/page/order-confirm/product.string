@@ -1,0 +1,30 @@
+<table class="product-table">
+   <tr>
+       <th class="cart-cell cell-img">&nbsp;</th>
+       <th class="cart-cell cell-info">商品信息</th>
+       <th class="cart-cell cell-price">价格</th>
+       <th class="cart-cell cell-count">数量</th>
+       <th class="cart-cell cell-total">小计</th>
+   </tr>
+   {{#cartProductVoList}} <!-- 一定要加不然下面的productName...取不到 -->
+   <tr>
+       <td class="cart-cell cell-img">
+           <a href="./detail.html?productId={{productName}}" class="link">
+               <img class="p-img" src="{{imageHost}}{{productMainImage}}" alt="{{productName}}">
+           </a>
+       </td>
+       <td class="cart-cell cell-info">{{productName}}</td>
+       <td class="cart-cell cell-price">￥{{productPrice}}</td>
+       <td class="cart-cell cell-count">￥{{quantity}}</td>
+       <td class="cart-cell cell-total">￥{{productTotalPrice}}</td>
+   </tr>
+   {{/cartProductVoList}}
+</table>
+   {{^cartProductVoList}}
+        <div class="error-tip">你还没有购买商品不能提交订单~~</div>
+   {{/cartProductVoList}}
+<div class="total-count">
+    <span>总价</span>
+    <span class="cart-total">￥{{cartTotalPrice}}</span>
+    <span class="btn btn-count">去结算</span>
+</div>

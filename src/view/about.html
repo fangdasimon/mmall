@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <%=require('html-loader!./layout/head-common.html')%>
+   <title><%=htmlWebpackPlugin.options.title%>- Damon电商平台</title>
+</head>
+<body> <!--  2.0.0+的JQueryIE8不兼容 -->
+    <%=require('html-loader!./layout/nav.html')%>
+    <%=require('html-loader!./layout/header.html')%>
+    <div class="crumb">
+        <div class="w">
+            <div class="crumb-con">
+                <a href="./index.html" class="link">MMALL</a>
+                <span>></span>
+                <span class="link-text"><%=htmlWebpackPlugin.options.title%></span>
+            </div>
+        </div>
+    </div>
+    <div class="page-wrap w">
+        <div class="with-nav">
+            <div class="panel">
+                <div class="panel-title"><%=htmlWebpackPlugin.options.title%></div>
+                <div class="panel-body">
+                    这是一个电商购物网站我的名字叫做MMALL~~
+                </div>
+            </div>
+        </div>
+    </div>
+    <%=require('html-loader!./layout/footer.html')%>
+</body>
+</html>

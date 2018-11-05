@@ -1,0 +1,70 @@
+/*
+* @Author: simon
+* @Date:   2018-03-15 14:15:37
+* @Last Modified by:   simon
+* @Last Modified time: 2018-05-17 15:20:11
+*/
+.keywords-list{
+    float: left;
+    width: 240px;
+    height: 350px;
+    background: #666;
+}
+.keywords-list .keywords-item{
+    height: 35px;
+    line-height: 35px;
+    padding-left:5px;
+    font-size: 14px;
+}
+.keywords-list .keywords-item .link{
+    color:#fff;
+    margin-left: 10px;
+}
+.keywords-list .keywords-item .link:hover{
+    color:#c60023;
+}
+.banner-con{
+    float: left;
+}
+/*楼层样式*/
+.floor-wrap .floor-title{
+    height: 50px;
+    line-height: 50px;
+    color: #ff0f42;
+    font-size: 20px;
+    font-weight: normal;
+    border-bottom: 1px solid #ff0f42;
+}
+.floor-wrap .floor-item{
+    margin-right: -20px;/*借20px 多余的会overflow掉*/
+    overflow: hidden;
+}
+.floor-wrap .floor-item .floor-link{
+    position: relative;
+    /*给了宽高之后float就会左上角对齐如果图片大于给的宽度就会下一行对齐左边*/
+    width: 200px;/*这里给的宽度主要是根据w一行排列5个*/
+    height: 220px;
+    margin:15px 20px 15px 0;
+    background:#fff;
+    z-index: 999;
+    cursor: pointer;
+    float: left;
+}
+.floor-wrap .floor-item .floor-link:hover{
+    box-shadow: 5px 5px 30px #ccc;
+}
+.floor-wrap .floor-link .floor-text{
+    position: absolute;
+    top:12px;
+    left: 20px;
+    font-size: 16px;
+    color: #555;
+}
+.floor-wrap .floor-link .floor-img{
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 80%;
+    height: 75%;
+    border:none;
+}

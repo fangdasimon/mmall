@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <%=require('html-loader!./layout/head-common.html')%>
+   <title><%=htmlWebpackPlugin.options.title%>- Damon电商平台</title>
+</head>
+<body> <!--  2.0.0+的JQueryIE8不兼容 -->
+    <%=require('html-loader!./layout/nav-simple.html')%>
+    <div class="page-wrap">
+        <div class="w">
+           <div class="forget-con">
+                <h1 class="user-title">找回密码</h1>
+                <div class="user-box">
+                    <div class="error">
+                      <i class="fa fa-minus-circle"></i>
+                      <span class="errorMsg">Not found</span>
+                    </div>
+                    <div class="step-con step-name">
+                        <p class="user-text">请输入用户名:</p>
+                        <div class="label-input">
+                            <label for="username"><i class="fa fa-user"></i></label>
+                            <input id="username" placeholder="请输入用户名" autocomplete="off">
+                        </div>
+                        <div class="btn btn-step" id="btn-username">下一步</div>
+                    </div>
+                    <div class="step-con step-question">
+                        <p class="user-text">密码提示问题是:<span class="question"></span></p>
+                        <div class="label-input">
+                            <label for="answer"><i class="fa fa-key"></i></label>
+                            <input id="answer" placeholder="请输入密码提示答案" autocomplete="off">
+                        </div>
+                        <div class="btn btn-step" id="btn-question">下一步</div>
+                    </div>
+                    <div class="step-con step-newPassowrd">
+                        <p class="user-text">请输入新密码:</p>
+                        <div class="label-input">
+                            <label for="newPassowrd"><i class="fa fa-lock"></i></label>
+                            <input id="newPassowrd" placeholder="请输入新密码" autocomplete="off" type="password">
+                        </div>
+                        <div class="btn btn-step" id="btn-password">下一步</div>
+                    </div>
+                </div>
+                <div class="link-item">
+                    <a href="./user-login.html" class="link" target="_blank">返回登录>></a>
+                </div>
+           </div>
+        </div>
+    </div>
+    <%=require('html-loader!./layout/footer.html')%>
+</body>
+</html>

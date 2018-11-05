@@ -1,0 +1,75 @@
+/*
+* @Author: simon
+* @Date:   2018-03-15 17:26:05
+* @Last Modified by:   simon
+* @Last Modified time: 2018-03-19 09:19:27
+*/
+.page-wrap{
+    background: #e72955;
+}
+.user-login{
+    width: 375px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin:50px auto;
+}
+.user-login .user-title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+.user-login .user-content{
+    padding:0 27px;
+}
+.user-content .label-input{
+    margin:13px 0;
+    position: relative;
+}
+.user-content .label-input label{
+    position: absolute;
+    left:1px;
+    right:1px;
+    top:1px;
+    bottom: 1px;
+    display: inline-block;
+    width:40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(211, 211, 211);
+    background: rgb(243, 243, 243);
+    border-right: 1px solid rgb(189, 189, 189);
+}
+.user-content .label-input input{
+    width: 265px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 15px;
+    outline: none;
+    padding:10px 0 10px 50px;
+}
+.user-content .login-submit{
+    width: 319px;
+    height: 40px;
+    line-height: 40px;
+    padding:2px 0;
+    color:#fff;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+.user-content .link-con{
+    text-align: right;
+    margin: 10px 0;
+}
+.user-content .link-con .link{
+    margin-left: 10px;
+    color:#999;
+}
+
+

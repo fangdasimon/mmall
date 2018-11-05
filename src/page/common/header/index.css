@@ -1,0 +1,32 @@
+/*
+* @Author: simon
+* @Date:   2018-03-17 09:38:27
+* @Last Modified by:   simon
+* @Last Modified time: 2018-03-17 09:57:26
+*/
+.header .logo{
+    position: absolute;
+    left: 50px;
+    top:35px;
+    display: block;
+    font-size: 36px;
+    color: #c60023;
+    font-weight: bold;
+}
+.header .search-con{
+    padding:40px 0 30px 250px;
+}
+.header .search-con .search-input{
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    border:2px solid #c60023;
+    outline: none;
+}
+.header .search-con .search-btn{
+    position: absolute;
+    width: 80px;
+    height: 44px;
+}
